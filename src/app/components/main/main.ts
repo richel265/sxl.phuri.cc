@@ -1,11 +1,10 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import { Title } from "../title/title";
 
 @Component({
-  selector: 'app-main',
-  imports: [],
-  templateUrl: './main.html',
-  styleUrl: './main.scss',
+  selector: "app-main",
+  imports: [Title],
+  templateUrl: "./main.html",
+  styleUrl: "./main.scss",
 })
-export class Main {
-
-}
+export class Main {}
